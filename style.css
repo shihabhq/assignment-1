@@ -1,13 +1,15 @@
 /* resets */
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto" ,sans-serif;
   color: rgb(13, 19, 33);
 }
-/* font */
-@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
 .logo {
   position: absolute;
   width: 114px;
@@ -21,7 +23,7 @@ body {
   text-decoration: none;
 }
 
-.demo-btn {
+.cv-btn {
   position: absolute;
   right: 150px;
   top: 38px;
@@ -81,4 +83,97 @@ body {
   cursor: pointer;
   text-decoration: none;
   display: inline-block;
+}
+
+/* why web section */
+
+.why {
+  margin: 0 150px;
+  padding: 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.why h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.why > p {
+  text-align: center;
+  font-size: 16px;
+  margin: 24px 48px 48px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.why .why-card1,
+.why-card2,
+.why-card3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px;
+  border-radius: 16px;
+  margin: 32px 0;
+}
+
+.why-card1 {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.why-card2 {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.why-card2 .why-text {
+  margin-right: 150px;
+}
+
+.why-card3 {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.why-text {
+  width: 450px;
+  margin: 10px 0;
+}
+
+.why-text h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.why-text p {
+  margin: 16px 0 32px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.why-text button {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  cursor: pointer;
+  background-color: inherit;
+  font-size: 18px;
+  font-weight: 500;
 }
