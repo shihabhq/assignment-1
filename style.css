@@ -257,3 +257,53 @@ h2 {
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
+
+/* support section */
+
+.support {
+  margin: 50px 150px 80px;
+  text-align: center;
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url("./assets/handshake.jpg");
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  padding: 64px 48px;
+}
+
+.support h1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+.support p {
+  margin: 16px 0 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+#contact-form input {
+  width: 550px;
+  padding: 19px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(13, 19, 33);
+}
+
+#contact-form button {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 16px;
+}
