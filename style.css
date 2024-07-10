@@ -9,6 +9,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: rgb(13, 19, 33);
 }
+h1,
+h2 {
+  margin: 0;
+}
 
 .logo {
   position: absolute;
@@ -93,7 +97,7 @@ body {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
 }
-.why h1 {
+.section-heading {
   text-align: center;
   font-size: 32px;
   font-weight: 800;
@@ -101,10 +105,10 @@ body {
   text-align: center;
 }
 
-.why > p {
+.section-paragraph {
   text-align: center;
   font-size: 16px;
-  margin: 24px 48px 48px;
+  margin: 24px 144px 48px;
   font-weight: 400;
   line-height: 26px;
   opacity: 0.7;
@@ -118,6 +122,10 @@ body {
   padding: 48px;
   border-radius: 16px;
   margin: 32px 0;
+}
+
+.why > p {
+  margin: 24px 48px 48px;
 }
 
 .why-card1 {
@@ -185,19 +193,6 @@ body {
   text-align: center;
 }
 
-.inspiration h1 {
-  font-size: 32px;
-  font-weight: 800;
-}
-
-.inspiration p {
-  margin: 24px 144px 48px;
-  opacity: 0.7;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26px;
-}
-
 .inspiration-video {
   padding: 32px;
   border: 1px solid rgba(13, 19, 33, 0.2);
@@ -208,6 +203,57 @@ body {
 }
 
 .inspiration-video iframe {
-    border-radius: 16px;
-    max-width: 100%;
+  border-radius: 16px;
+  max-width: 100%;
+}
+
+/* target section */
+.target {
+  margin: 0 150px;
+}
+
+.target-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.target-card {
+  padding: 40px;
+  border-radius: 16px;
+  flex-basis: 25%;
+}
+
+.target-card img {
+  margin-bottom: 24px;
+}
+
+.target-card h1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.target-card p {
+  margin: 8px 0 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.target-card a {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(13, 19, 33);
+}
+
+.card-html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.card-css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-js {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
 }
